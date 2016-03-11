@@ -1,10 +1,10 @@
-(define-custom 'generic-on-key '("zenkaku-hankaku" "<Control>\\")
+(define-custom 'generic-on-key '("zenkaku-hankaku" "<Control>\\" "<Control> ")
                '(global-keys1)
                '(key)
                (N_ "[Global] on")
                (N_ "long description will be here"))
 
-(define-custom 'generic-off-key '("zenkaku-hankaku" "<Control>\\")
+(define-custom 'generic-off-key '("zenkaku-hankaku" "<Control>\\" "<Control> ")
                '(global-keys1)
                '(key)
                (N_ "[Global] off")
