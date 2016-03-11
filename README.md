@@ -2,8 +2,9 @@
 
 ```
 sudo apt-get install uim-fep
-sudo cp *.scm /usr/share/uim/
-sudo uim-module-manager --register wubiload
+sudo mkdir /usr/share/uim/tables
+sudo cp *.table /usr/share/uim/tables/
+sudo uim-module-manager --register xmload
 ```
 
 ```

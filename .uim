@@ -9,3 +9,15 @@
                '(key)
                (N_ "[Global] off")
                (N_ "long description will be here"))
+
+(define-custom 'generic-next-candidate-key '("down" "<IgnoreCase><Control>n")
+               '(global-keys1)
+               '(key)
+               (N_ "[Global] next candidate")
+               (N_ "long description will be here"))
+
+(define-custom 'generic-commit-key '(" ")
+               '(global-keys1)
+               '(key)
+               (N_ "[Global] commit")
+               (N_ "long description will be here"))
