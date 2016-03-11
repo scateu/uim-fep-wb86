@@ -19,3 +19,9 @@ uim-fep -u wb86
 
 `C-\` to turn on or off input method.
 
+
+## TODO
+
+有待向Debian里增加一个uim-wb86的包
+
+
