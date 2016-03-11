@@ -13,7 +13,8 @@ cp .uim ~/.uim
 
 
 ```
-uim-fep -u wb86
+uim-fep -u wb86 -C black:white
+echo 'alias ime="uim-fep -u wb86 -C black:white"' >> ~/.bashrc
 ```
 
 

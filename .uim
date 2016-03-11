@@ -11,3 +11,4 @@
 
 (define generic-commit-key '(" "))
 (define generic-commit-key? (make-key-predicate '(" ")))
+
