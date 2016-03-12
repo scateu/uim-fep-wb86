@@ -12,3 +12,5 @@
 (define generic-commit-key '(" "))
 (define generic-commit-key? (make-key-predicate '(" ")))
 
+(define generic-nr-candidate-max 3)
+(define generic-show-prediction-candidates? #f)
