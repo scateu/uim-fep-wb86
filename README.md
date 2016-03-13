@@ -14,10 +14,8 @@ cp .uim ~/.uim
 
 ```
 uim-fep -u wb86 -C white:black
-echo 'alias ime="uim-fep -u wb86 -C white:black"' >> ~/.bashrc
 echo 'alias ucdos="uim-fep -u wb86 -C white:black"' >> ~/.bashrc
 ```
-
 
 `C-\` to turn on or off input method.
 
@@ -26,4 +24,10 @@ echo 'alias ucdos="uim-fep -u wb86 -C white:black"' >> ~/.bashrc
 
 有待向Debian里增加一个uim-wb86的包
 
+
+## Example
+
+```
+uim-fep -u wb86 -C white:black -e weechat irc://scateu@irc.freenode.net/#tuna,#tuna-random -r /window splitv 50
+```
 
