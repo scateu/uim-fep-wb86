@@ -31,3 +31,9 @@ echo 'alias ucdos="uim-fep -u wb86 -C white:black"' >> ~/.bashrc
 uim-fep -u wb86 -C white:black -e weechat irc://scateu@irc.freenode.net/#tuna,#tuna-random -r /window splitv 50
 ```
 
+
+## 其它
+
+/usr/share/uim/im-switcher.scm 里面，可以把wb86的提示用中文汉字改一下
+
+    (wb86             . "五")
