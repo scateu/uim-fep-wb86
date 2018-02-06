@@ -14,3 +14,8 @@
 
 (define generic-nr-candidate-max 3)
 (define generic-show-prediction-candidates? #f)
+
+(define generic-show-candidate-implicitly? #t)
+(define generic-use-candidate-window? #f)
+(define generic-show-prediction-candidate? #f)
+(define generic-commit-candidate-by-numeral-key? #t)
