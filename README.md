@@ -37,3 +37,18 @@ uim-fep -u wb86 -C white:black -e weechat irc://scateu@irc.freenode.net/#tuna,#t
 /usr/share/uim/im-switcher.scm 里面，可以把wb86的提示用中文汉字改一下
 
     (wb86             . "五")
+
+
+## 与tmux结合
+
+<https://github.com/ToQoz/uim-tmux>
+
+## 加速响应
+
+可以考虑如下修改，以不使用反白方式选字，加快响应速度
+
+/usr/share/uim/im.scm +47
+
+```
+(define preedit-reverse   1)
+```
